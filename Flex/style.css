@@ -1,0 +1,55 @@
+/* 
+display:flex;
+justify-content:center;
+align-items:center; 
+flex-direction:column;  row; column-reverse;row-reverse;
+flex-wrap:wrap;  wrap-reverse; //Qutu sigmayanda alta kecir
+align-content:  flex-end;    flex-start;center;    space-between;  space-arround;
+order: 1; 2;  3;
+flex-flow:  row   wrap;  1..Flex-direction  2.flex-wrap
+flex-grow:1; 2; 3; Her qutuya ayriliqda verilir
+flex-shrink: 1; 2;  3;
+align-self:center; flex-start ;  baseline ;  stretch;  flex-end;
+flex-basis:
+*/
+
+
+.flex{
+ width: 500px;
+display: flex;
+justify-content:center;
+align-items:center;
+}
+
+.box{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    margin: 20px;
+   
+}
+
+.box-1{
+flex-shrink: 2;
+}
+
+.box-2{
+    flex-shrink: 3;
+}
+
+.box-3{
+   
+}
+
+.box-4{
+
+}
+
+.box-5{
+
+}
+
+.box-6{
+
+}
