@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 100%;
+  height: 400px;
+  background-color: red;
+  transition: 1s;
+}
+
+.box_child {
+  width: 50%;
+  height: 100px;
+  color: black;
+  background-color: #23338d;
+  font-weight: 600;
+  font-size: 32px;
+}
+/*# sourceMappingURL=style.css.map */
